@@ -1,0 +1,630 @@
+/* Big tablets to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    /* hero section*/
+    .hero-text {
+        width: 100% !important;
+        padding: 0 2%;
+    }
+
+    .row {
+        width: 100% !important;
+        padding: 0 2%;
+    } 
+
+    /*how it works section*/
+    .steps-in-action {
+
+        .steps-icon {
+            max-width: 9em !important;
+        }
+
+        .check-icon {
+            left: 87% !important;
+        }
+
+        .steps-text {
+            top: 6.5em !important;
+        }
+
+        .steps-numbers {
+            left: 3em !important;
+            top: .8em !important;
+        }
+    }
+
+    /*shops section*/
+    .shop-3,
+    .shop-4 {
+        height: 10em !important;
+        transform: translate(-22%, 4%) !important; 
+    }
+
+    /*testimonial section*/
+    .testimonial {
+        width: 70% !important;
+    }
+
+    /*before-after section*/
+
+    
+    /*.before-after-4,
+    .before-after-5 {
+        transform: translate(2%, 20%) !important;
+    }
+
+    .before-after-6 {
+        transform: translate(-56%, 44%) !important;
+    }
+
+    .before-after-2,
+    .before-after-3 {
+        transform: translate(60%, 0) !important;
+    }
+
+    .before-after-1 {
+        transform: translate(118%, 55%) !important;
+    }*/ 
+}
+
+
+/* small tablets(iPads & co) to big tablets: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+    html,
+    body {
+        font-size: .9em !important;
+    }
+
+    /*header section*/
+    .logo {
+        margin-left: 1.8% !important;
+    }
+
+    /*features section*/
+
+    h3 { font-size: 1.1em !important; }
+
+    .box {
+        padding: .6em !important;
+    }
+
+    /*testimonial section*/
+    .testimonial {
+        width: 80% !important;
+        transform: translate(25%, -2%) !important;
+    }
+
+    /*before-after section*/
+
+    
+    
+    /*.before-after-6 {
+        transform: translate(-50%, 44%) !important;
+    }
+
+    .before-after-2,
+    .before-after-3 {
+        transform: translate(55%, 0) !important;
+    }
+
+    .before-after-1 {
+        transform: translate(108%, 55%) !important;
+    }*/ 
+
+
+    /*plans section*/
+    .order-items-2 {
+        
+        .btn,
+        .secondary-btn {
+            margin-top: 47% !important;
+        }
+    }
+
+    .order-items-3 {
+        
+        .btn,
+        .secondary-btn {
+            margin-top: 64% !important;
+        }
+    }
+}
+
+
+/* small phones to small tablets: from 481px to 768px */
+@media only screen and (max-width: 768px) {
+
+    html,
+    body { font-size: .8em !important; }
+    
+    /* header section */
+    .mobile-nav-icon { display: inline-block !important; }
+
+    .main-nav {
+        float: left !important;
+
+        li {
+            display: block !important;
+            margin-left: 5em !important;
+
+            a:link,
+            a:visited {
+                display: block !important;
+                font-size: 1.4em !important;
+                border: 0 !important;
+                padding: 0 .5em !important;
+            }
+        }
+    }
+
+    .main-nav { display: none; } 
+
+
+    /*.sticky-nav {}   ----- for sticky-nav styling */
+
+
+
+    h1 {
+        margin-bottom: 2.5em !important; 
+        margin-top: 1em !important;
+    }
+
+    /* features section */
+    .long-copy {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    h3 { font-size: 1em !important; }
+
+    .box {
+        padding: .3em !important;
+    }
+
+    /*how it works section*/
+    .steps-in-action {
+
+        .steps-icon {
+            max-width: 7em !important;
+            transform: translate(170%, 0) !important;
+        }
+
+        .check-icon {
+            left: 89% !important;
+            top: .8em !important;
+        }
+
+        .add-icon {
+            left: 85%;
+            top: 5.6em !important;
+        }
+
+        .steps-text {
+            top: 6em !important;
+            width: 90% !important;
+            margin-left: 5% !important;
+        }
+
+        .steps-numbers {
+            font-size: 3em !important;
+        }
+    }
+
+    /* shops section */
+    .shops-section {
+    
+        &:before {
+            height: 12em !important;
+            transform: translate(-5%, 45%) !important;
+        }
+    
+        .shops-text-box {
+            padding: 2em !important;
+            transform: translate(4%, 35%) !important;
+        }
+    }
+
+    .shop-3,
+    .shop-4 {
+        height: auto !important;
+        transform: translate(-18%, 18%) !important; 
+    }
+
+    /* testimonial section*/
+    .testimonial {
+        width: 85% !important;
+        transform: translate(20%, -2%) !important;
+    }
+
+    /*before-after section*/
+
+    /*.before-after-6 {
+        transform: translate(-43%, 44%) !important;
+    }
+
+    .before-after-2,
+    .before-after-3 {
+        transform: translate(45%, 0) !important;
+    }
+
+    .before-after-1 {
+        transform: translate(88%, 55%) !important;
+    }*/ 
+
+    /* plans section */
+    .plans-section {
+
+        .long-copy {
+            width: 80% !important;
+            margin-left: 10% !important;
+        }
+    }
+
+    .skincare-pack-1,
+    .skincare-pack-2,
+    .skincare-pack-3 {
+        width: 80% !important;
+    }
+
+    .plan-box-1,
+    .plan-box-2,
+    .plan-box-3 { width: 90% !important; }
+
+    .skincare-pack-1 { transform: translate(35%, 0) !important; }
+
+    .plan-box-1 {
+        transform: translate(25%, 0) !important;
+    }
+
+    .skincare-pack-2 { transform: translate(18%, 0) !important; }
+
+    .plan-box-2 {
+        transform: translate(11%, 0) !important;
+    }
+
+    .skincare-pack-3 { transform: translate(2%, 0) !important; }
+
+    .plan-box-3 {
+        transform: translate(-3%, 0) !important;
+    }
+
+    .order-items-1 {
+        
+        .btn,
+        .primary-btn {
+            margin-left: 25% !important;
+        }
+    }
+
+    .order-items-2 {
+        
+        .btn,
+        .secondary-btn {
+            margin-left: 25% !important;
+            margin-top: 40% !important;
+        }
+    }
+
+    .order-items-3 {
+        
+        .btn,
+        .secondary-btn {
+            margin-left: 26% !important;
+            margin-top: 53% !important;
+        }
+    }
+
+    /* contact section */
+    .contact-left { margin-left: 5% !important; } 
+
+}
+
+
+/* small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .hero-subtext { font-size: .9em !important; }
+    h1 { font-size: 1.6em !important; }
+
+    /* features section */
+    h2 { 
+        font-size: 1em !important;
+        
+        &:after {
+            width: 50px !important;
+        }
+    }
+
+    .box {
+        padding: .2em !important;
+        text-align: unset !important;
+
+        img {
+            display: flex !important;
+            margin: 0 !important;
+            max-width: 6% !important;
+            float: left;
+            margin-right: .5em !important;
+        }
+
+        h3,
+        p { display: flex; }
+
+        p { margin-bottom: .5em !important; }
+    }
+
+    /* fav skincare section*/
+    .fav-img {
+
+        img {
+            opacity: 1 !important;
+        }
+    }
+
+
+    /* steps section */
+    .steps-section {
+
+        .steps {
+
+            div {
+                margin-bottom: 5em !important;
+            }
+        }
+    
+        .steps-in-action {
+            margin-left: 15% !important;
+        
+            .steps-icon {  
+                max-width: 3em !important;
+                transform: rotate(90deg) !important;
+            }
+
+            .check-icon { 
+                display: none;
+            }
+        
+            .add-icon {
+                display: none;
+            }
+        
+            .steps-text {
+                position: absolute;  
+                top: 3em !important;
+                width: 70% !important;
+            }
+
+            .steps-numbers {
+                font-size: 1.5em !important;
+                left: 1.8em !important;
+                top: 1em !important;
+            }
+            
+        }
+    }
+
+     /* shops section */
+    .shops-section {
+        
+        &:before {
+            display: none !important;
+        }
+    
+        .shops-text-box {
+            padding: 1.3em !important;
+            transform: translate(0, 15%) !important;
+            width: auto !important;
+            margin-bottom: 4em !important;
+        }
+    }
+
+    .shop-1,
+    .shop-2 {
+        width: 50% !important;
+        height: 13em !important;
+        float: left !important;
+        transform: translate(-5%, 0);
+        padding: .5em !important;
+    }
+
+    .shop-3,
+    .shop-4 {
+        width: 40% !important;
+        height: 10em !important;
+        float: left !important;
+    }
+
+    .shop-3 { margin-left: 13% !important; } 
+    .shop-4 { margin-left: 3% !important; } 
+
+
+    /* testimonial section */
+    .testimonial-box {
+        transform: translate(20%, 0);
+    }
+
+    .testimonial {
+        width: 85% !important;
+        position: relative;
+        transform: translate(0, -2%) !important;
+        display: block !important;
+        margin-left: 5% !important;
+        margin-bottom: 2em !important;
+    }
+
+    /* top deals section */
+    .hero-deal { transform: translate(21.5%, 20%) !important; }
+
+    .hero-deal-texts {
+        transform: translate(15%, 32%) !important;
+        position: relative;
+
+        li {
+            padding: .2em 0;
+
+            span {
+                background-color: #e99bb5;
+                color: #fff;
+                margin-left: .5em;
+            }
+
+            a:link,
+            a:visited {
+                color: #555;
+            }  
+        }
+
+        .free-shipping {
+            font-size: .8em;
+        }
+
+        .btn,
+        .primary-btn {
+            position: absolute;
+            margin-top: .5em;
+        }
+
+        .min-left-arrow {
+            width: .8em;
+            height: auto;
+            float: left;
+            margin-top: 2.5em !important;
+            margin-left: 16em !important; 
+            margin-right: .2em !important;
+            display: flex;
+        }
+
+        .min-right-arrow {
+            width: 1.8em;
+            height: auto;
+            float: left;
+            margin-top: 1.9em !important;
+            margin-left: 2.4em !important;
+        }
+    }
+
+    /* before-after section */
+    /*.before-after-section {
+
+        .before-after-5 {
+            transform: translate(90%, 15%) !important;
+        }
+
+        .before-after-4 {
+            transform: translate(85%, 5%) !important;
+        }
+
+        .before-after-6 {
+            transform: translate(130%, 15%) !important;
+        }
+
+        .before-after-2 {
+            transform: translate(85%, 15%) !important;
+            margin-bottom: .5em;
+        }
+
+        .before-after-3 {
+            transform: translate(90%, 5%) !important;
+            margin-bottom: .5em;
+        }
+
+        .before-after-1 {
+            transform: translate(130%, 15%) !important;
+        }
+    }*/ 
+
+    /* plans section */
+    .plans-section {
+
+        .long-copy {
+            width: 80% !important;
+            margin-left: 12% !important;
+            margin-bottom: 2em !important;
+        }
+    }
+
+    .skincare-pack-1,
+    .skincare-pack-2,
+    .skincare-pack-3 {
+        width: 65% !important;
+    }
+
+    .plan-box-1,
+    .plan-box-2,
+    .plan-box-3 { width: 70% !important; }
+
+    .skincare-pack-1 { 
+        transform: translate(26%, 0) !important;
+        margin-bottom: 1em !important; 
+    }
+
+    .plan-box-1 {
+        transform: translate(21%, 0) !important;
+        margin-bottom: 4em !important;
+    }
+
+    .skincare-pack-2 { 
+        transform: translate(26%, 0) !important;
+        margin-bottom: 1em !important; 
+    }
+
+    .plan-box-2 {
+        transform: translate(21%, 0) !important;
+        margin-bottom: 4em !important;
+    }
+
+    .skincare-pack-3 { 
+        transform: translate(26%, 0) !important;
+        margin-bottom: 1em !important; 
+    }
+
+    .plan-box-3 {
+        transform: translate(21%, 0) !important;
+    }
+
+    .order-items-1 {
+        
+        .btn,
+        .primary-btn {
+            margin-left: 33% !important;
+        }
+    }
+
+    .order-items-2 {
+        
+        .btn,
+        .secondary-btn {
+            margin-left: 32% !important;
+            margin-top: 28% !important;
+        }
+    }
+
+    .order-items-3 {
+        
+        .btn,
+        .secondary-btn {
+            margin-left: 34% !important;
+            margin-top: 33% !important;
+        }
+    }
+
+    
+    /* contact section */
+    .contact-left { margin-left: 0 !important; }
+
+    .contact-right { width: 26% !important; }
+
+
+    /* footer section */
+    footer {
+        padding: .2em !important;
+    
+        .footer-nav {
+
+            li {
+                margin-right: 1em !important;
+            }
+        }
+    }
+        
+    
+}
